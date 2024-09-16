@@ -62,4 +62,5 @@ The backpropagation algorithm, essential for training deep networks, is briefly 
 
 # difference between using MNIST from scratch and MNIST with TensorFlow
 MNIST from scratch takes alot of time to excute.it is about *10min for 30 echos and it would take more if we incearse the number of it , on the otherhand MNIST with TF took only *47s with 150 echos
+
 The accuracy of TF is about *.98 , on the otherhand the acuuracy of the another is
