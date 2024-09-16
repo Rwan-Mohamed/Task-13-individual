@@ -15,6 +15,7 @@ if we have two layers,the first layer of perceptrons - is making three very simp
 ### output={0 if w⋅x+b≤0
 ###         1 if w⋅x+b>0} 
  where w and x are vectors whose components are the weights and inputs and we use bias instead of threshold where b≡−threshold.You can think of the bias as a measure of how easy it is to get the perceptron to output a 1.
+ 
 --> Another way perceptrons can be used is to compute the elementary logical functions we usually think of as underlying computation, functions such as AND, OR, and NAND as we can do NAND gate by having a perceptron with two inputs, each with weight −2, and an overall bias of 3 so we can use networks of perceptrons to compute any logical function at all as the NAND gate is universal for computation, that is, we can build any computation up out of NAND gates.
 
 ## Sigmoid neurons:
